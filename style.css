@@ -239,9 +239,9 @@ h3{
     text-align: center;
 }
 
-@media (min-width: 600px) and (max-width: 800px) {
+@media (min-width: 620px) and (max-width: 800px) {
     .navegacion, .navegacion-aux{
-        font-size: 1rem;
+        font-size: 15px;
     }
     
     h2{
@@ -253,9 +253,9 @@ h3{
     }
 }
 
-@media (min-width: 0px) and (max-width: 600px) {
+@media (min-width: 0px) and (max-width: 620px) {
     .navegacion, .navegacion-aux{
-        font-size: 0.8rem;
+        font-size: 10px;
     }
     
     h2{
