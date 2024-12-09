@@ -241,3 +241,36 @@ p{
 .img-Bebida-Fria{
     width: 40%;
 }
+
+@media (min-width: 620px) and (max-width: 800px) {
+    .navegacion, .navegacion-aux{
+        font-size: 15px;
+    }
+    
+    h2{
+        font-size: 1.5rem;
+    }
+
+    h3{
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 620px) {
+    .navegacion, .navegacion-aux{
+        font-size: 10px;
+    }
+    
+    h2{
+        font-size: 1.3rem;
+    }
+
+    h3{
+        font-size: 1.3rem;
+    }
+
+    .img-Bebida-caliente, 
+    .img-Bebida-Fria{
+        display: none;
+    }
+}
