@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+img,div{
+    user-select: none;
+}
+
 header{
     background-color: #F3C0C4;
     width: 100%;
@@ -123,4 +127,117 @@ a{
     font-weight: bold;
     font-size: 1.5rem;
     color: white;
+}
+
+body{
+    width: 100%;
+    height: 75%;
+}
+
+.Parte1{
+    display: grid;
+    grid-template-rows: 20% 80%; 
+    height: 40%;
+}
+
+.P1-fila1{
+    padding-left: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.E_Mes{
+    width: 25%;
+}
+
+.P1-fila2{
+    text-align: center;
+}
+
+.Banner{
+    height: 90%;
+    width: 80%;
+}
+
+.Parte2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 60%;
+    background-color: #43120D;
+    align-items: center;
+}
+
+.P2-f1-c1{
+    display: grid;
+    grid-template-rows: 30% 10% 60%;
+}
+
+.Bebidas{
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+}
+
+.img-Bebidas{
+    height: 60%;
+}
+
+.Calientes{
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+}
+
+.img-Calientes{
+    height: 100%;
+}
+
+.Calientes-Catalogo{
+    display: flex;
+}
+
+.P2-f1-c2{
+    text-align: center;
+}
+
+.img-Bebida-caliente{
+    width: 40%;
+}
+
+p{
+    padding-left: 50%;
+    font-family: Altum Sans;
+    color: white;
+    font-size: 1.5em;
+}
+
+.Parte3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 60%;
+    background-color: #43120D;
+    align-items: center;
+}
+
+.P3-c1{
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+
+.Frias{
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+}
+
+.img-Frias{
+    height: 100%;
+}
+
+.P3-c2{
+    text-align: center;
+}
+
+.img-Bebida-Fria{
+    width: 40%;
 }
