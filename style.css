@@ -194,13 +194,8 @@ h3{
     text-align: center;
 }
 
-@media (min-width: 800px) and (max-width: 1014px){
-    .navegacion-aux,.navegacion{
-        font-size: 1.5rem;
-    }
-}
 
-@media (min-width: 0px) and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
 
     .header-inferior, .LISTA-NAVEGACION{
         display: flex;
@@ -216,7 +211,7 @@ h3{
     }
 
     .Logo, .img-derecha{
-        height: 6vh;
+        height: 2vh;
     }
 
     li{
@@ -225,7 +220,7 @@ h3{
     }
 
     .navegacion, .navegacion-aux{
-        font-size: 30px;
+        font-size: 40px;
     }
     
     h2{
