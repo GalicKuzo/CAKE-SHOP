@@ -11,81 +11,36 @@ img,div{
 header{
     background-color: #F3C0C4;
     width: 100%;
-    height: 25%;
+    height: auto;
 }
 
 .header-superior{
     display: grid;
-    grid-template-columns: 15% 70% 15%;
+    grid-template-columns: 1fr 1fr;
     width: 100%;
-    height: 50%;
+    height: auto;
+    padding: 1%;
 }
 
 .hs-izquierda{
     display: flex;
     justify-content: start;
-    padding: 5%;
 }
 
-.hs-centro{
-    display: flex;
-    align-items: center;
-    padding: 0%;
-}
-
-form{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-}
-
-.buscador-contenedor {
-    display: flex; 
-    justify-content: end;
-    align-items: center;
-    border: none;
-    border-radius: 40px;
-    background-color: white;
-    padding-right: 2%;
-    width: 80%;
-}
-
-button{
-    border: none;
-    background: none;
-    cursor: pointer;
-}
-
-.Lupa{
-    height: 2vh;
-}
-
-.buscador{
-    width: 100%;
-    border: none;
-    outline: none; 
-    border-radius: 40px;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 2%;
-}
 
 .hs-derecha {
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding-right: 8%;
     justify-content: end;
-    gap: 15%;
+    gap: 4%;
 }
 
 .Logo{
-    height: 3vw;
+    height: 4vw;
 }
 
 .img-derecha{
-    height: 2.5vw;
+    height: 4vw;
 }
 
 .header-inferior{
@@ -104,7 +59,7 @@ button{
 .navegacion{
     font-family: Altum Sans;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #43120D;
 }
 
@@ -117,6 +72,10 @@ button{
     background:#43120D;
 }
 
+.Marron{
+    background-color: #43120D;
+}
+
 a{
     text-decoration: none;
     color: #43120D;
@@ -125,19 +84,19 @@ a{
 .navegacion-aux{
     font-family: Altum Sans;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: white;
 }
 
 body{
     width: 100%;
-    height: 75%;
+    height: auto;
 }
 
 .Parte1{
     display: grid;
     grid-template-rows: 20% 80%; 
-    height: 40%;
+    height: auto;
 }
 
 .P1-fila1{
@@ -162,7 +121,7 @@ body{
 .Parte2{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 60%;
+    height: auto;
     background-color: #43120D;
     align-items: center;
 }
@@ -242,35 +201,66 @@ p{
     width: 40%;
 }
 
-@media (min-width: 620px) and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
+
+    .header-inferior, .LISTA-NAVEGACION{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px; 
+        flex-basis: 100%;
+    }
+
+
+    .cuadro{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .Logo, .img-derecha{
+        height: 2.5vh;
+    }
+
+    li{
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+    }
+
     .navegacion, .navegacion-aux{
-        font-size: 15px;
+        font-size: 30px;
     }
     
-    h2{
-        font-size: 1.5rem;
+    .LISTA-NAVEGACION, .ultimo{
+        flex-basis: 100%;
+        text-align:center;
     }
 
-    h3{
-        font-size: 1.5rem;
-    }
-}
+    .Parte2{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }    
 
-@media (min-width: 0px) and (max-width: 620px) {
-    .navegacion, .navegacion-aux{
-        font-size: 10px;
-    }
-    
-    h2{
-        font-size: 1.3rem;
+    .Calientes-catalogo{
+        padding-top: 3%;
     }
 
-    h3{
-        font-size: 1.3rem;
+    p{
+        padding-left: 25%;
+        font-size: 30px;
     }
 
-    .img-Bebida-caliente, 
+    .img-Bebida-caliente{
+        width: 50%;
+    }
+
+    .Parte3{
+        grid-template-columns: 1fr;
+        grid-template-rows: 40% 60%;
+    }
+
     .img-Bebida-Fria{
-        display: none;
+        width: 40%;
     }
+
 }
