@@ -27,19 +27,7 @@ header{
     justify-content: start;
 }
 
-
-.hs-derecha {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    gap: 4%;
-}
-
 .Logo{
-    height: 4vw;
-}
-
-.img-derecha{
     height: 4vw;
 }
 
@@ -230,7 +218,7 @@ p{
         font-size: 30px;
     }
     
-    .LISTA-NAVEGACION, .ultimo{
+    .LISTA-NAVEGACION{
         flex-basis: 100%;
         text-align:center;
     }
