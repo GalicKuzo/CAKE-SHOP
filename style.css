@@ -70,6 +70,10 @@ header{
     background:#43120D;
 }
 
+.Marron{
+    background-color: #43120D;
+}
+
 a{
     text-decoration: none;
     color: #43120D;
@@ -205,6 +209,7 @@ h3{
         flex-basis: 100%;
     }
 
+
     .cuadro{
         padding-left: 2%;
         padding-right: 2%;
@@ -220,7 +225,7 @@ h3{
     }
 
     .navegacion, .navegacion-aux{
-        font-size: 20px;
+        font-size: 30px;
     }
     
     h2{
@@ -266,5 +271,9 @@ h3{
     .LISTA-NAVEGACION, .ultimo{
         flex-basis: 100%;
         text-align:center;
+    }
+
+    .Parte5{
+        padding-top: 0%;
     }
 }
