@@ -241,17 +241,13 @@ p{
         grid-template-rows: 1fr 1fr;
     }    
 
-    .Calientes-catalogo{
+    .Calientes-catalogo, .Frias-catalogo{
         padding-top: 3%;
-    }
-
-    p{
-        padding-left: 25%;
-        font-size: 30px;
+        text-align: center;
     }
 
     .img-Bebida-caliente{
-        width: 50%;
+        height: 80%;
     }
 
     .Parte3{
@@ -260,7 +256,12 @@ p{
     }
 
     .img-Bebida-Fria{
-        width: 40%;
+        height: 80%;
+    }
+
+    p{
+        padding-left: 0%;
+        font-size: 30px;
     }
 
 }
