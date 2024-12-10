@@ -73,3 +73,46 @@ a{
     font-size: 2rem;
     color: white;
 }
+
+
+.Parte1,.Parte2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 3%;
+}
+
+.P1-c1,.P2-c1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+h3{
+    padding-bottom: 3%;
+    font-family: Altum Sans;
+    font-weight:bold;
+    color: #43120D;
+    font-size: 4rem;
+}
+
+p{
+    font-family: Altum Sans;
+    color: #43120D;
+    font-size: 2rem;
+}
+
+.P1-c2,.P2-c2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cupcake,.img-2{
+    text-align: center;
+    width: 80%;
+}
+
+.Parte2{
+    padding-bottom: 3%;
+}
